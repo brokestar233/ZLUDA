@@ -39,7 +39,7 @@ jobs:
           target/release/libnvml.so
   build_win:
     name: Build and publish (Windows)
-    runs-on: windows-11
+    runs-on: windows-2022
     steps:
     - uses: actions/checkout@v2
       with:
